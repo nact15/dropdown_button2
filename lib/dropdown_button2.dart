@@ -1410,7 +1410,7 @@ class _DropdownButton2State<T> extends State<DropdownButton2<T>>
   TextStyle? get _textStyle =>
       widget.style ?? Theme.of(context).textTheme.subtitle1;
 
-  void handleTap() => _handleTap();
+  void showItems() => _handleTap();
 
   void _handleTap() {
     final TextDirection? textDirection = Directionality.maybeOf(context);
